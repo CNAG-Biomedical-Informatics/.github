@@ -7,20 +7,23 @@ Mainly using Perl, Python, JavaScript (React) and R.
 
 <style>
 .icon-bg {
-    border-radius: 1%;
-    background-color: white;
-    padding: 1px
+  border-radius: 1%;
+  background-color: white;
+  padding: 14px
 }
 
 .icon-size {
-    width: 30px;
-    height: 30px;
+  width:  20px;
+  height: 20px;
 }
 </style>
 
 # Tools
 
-Convert-Pheno: A software toolkit for the interconversion of standard data models for phenotypic data 
+Convert-Pheno: A software toolkit for the interconversion of standard data models for phenotypic data.
+
+Published open access: Click [here](https://doi.org/10.1016/j.jbi.2023.104558) to read the article.
+
 <table>
   <tr>
     <td rowspan="5">
@@ -30,6 +33,7 @@ Convert-Pheno: A software toolkit for the interconversion of standard data model
         style="max-width:200px; max-height:200px; width: 100%; height: auto;"
       />
     </td>
+    <td></td> <!-- Empty cell for alignment -->
     <td>
       <a href="https://convert-pheno.cnag.cat" class="icon-bg">
         <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/flask.svg" class="icon-size"/>
