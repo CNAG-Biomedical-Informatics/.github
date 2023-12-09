@@ -11,7 +11,7 @@ Mainly using Perl, Python, JavaScript (React) and R.
   <a href="https://github.com/cnag-biomedical-informatics/convert-pheno"><img src="https://raw.githubusercontent.com/cnag-biomedical-informatics/convert-pheno/main/docs/img/CP-logo.png" width="50" alt="Convert-Pheno"></a>
   <a href="https://github.com/cnag-biomedical-informatics/convert-pheno"><img src="https://raw.githubusercontent.com/cnag-biomedical-informatics/convert-pheno/main/docs/img/CP-text.png" width="250" alt="Convert-Pheno"></a>
 </p>
-<p align="center">
+<p align="left">
     <em>A software toolkit for the interconversion of standard data models for phenotypic data</em>
 </p>
 
