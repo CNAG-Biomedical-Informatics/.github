@@ -1,5 +1,6 @@
 
-# commands for testing the renering of the profile page before pushing it to github
+# commands for testing the renering of the profile page 
+# before pushing it to github
 
 include .env
 
@@ -23,3 +24,18 @@ dark:
 # kill the grip server
 stop:
 	killall grip
+
+# commands for getting the icons
+make icons: dl-icons recolor-icons
+
+dl-icons:|
+	url=https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs && \
+	cd profile/icons && \
+	wget -O flask.svg $$url/solid/flask.svg && \
+	wget -O book.svg $$url/solid/book.svg && \
+	wget -O github.svg $$url/brands/github.svg
+
+recolor-icons:|
+	NEW_COLOR=#808080 && \
+	cd profile/icons && \
+	sed -i "s/<path /<path fill=\"$$NEW_COLOR\" /g" *.svg
