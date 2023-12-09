@@ -19,8 +19,8 @@ Published open access: Click [here](https://doi.org/10.1016/j.jbi.2023.104558) t
 
 | | | 
 |---|---|
-| [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/flask.svg" height="16">](https://convert-pheno.cnag.cat) | [Playground](https://convert-pheno.cnag.cat) |
-| [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/book.svg" height="16">](https://cnag-biomedical-informatics.github.io/convert-pheno) | [Documentation Perl Module](https://cnag-biomedical-informatics.github.io/convert-pheno) |
-| [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/book.svg" height="16">](https://cnag-biomedical-informatics.github.io/convert-pheno-ui) | [Documentation Web-UI](https://cnag-biomedical-informatics.github.io/convert-pheno-ui) |
-| [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" height="16">](https://github.com/CNAG-Biomedical-Informatics/convert-pheno) | [Code Repository Perl Module](https://github.com/CNAG-Biomedical-Informatics/convert-pheno) |
-| [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" height="16">](https://github.com/CNAG-Biomedical-Informatics/convert-pheno-ui) | [Code Repository Web-UI](https://github.com/CNAG-Biomedical-Informatics/convert-pheno-ui) |
+| [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/flask.svg" height="16">](https://convert-pheno.cnag.cat) | [Playground](https://convert-pheno.cnag.cat) |
+| [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/book.svg" height="16">](https://cnag-biomedical-informatics.github.io/convert-pheno) | [Documentation Perl Module](https://cnag-biomedical-informatics.github.io/convert-pheno) |
+| [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/book.svg" height="16">](https://cnag-biomedical-informatics.github.io/convert-pheno-ui) | [Documentation Web-UI](https://cnag-biomedical-informatics.github.io/convert-pheno-ui) |
+| [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/github.svg" height="16">](https://github.com/CNAG-Biomedical-Informatics/convert-pheno) | [Code Repository Perl Module](https://github.com/CNAG-Biomedical-Informatics/convert-pheno) |
+| [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/github.svg" height="16">](https://github.com/CNAG-Biomedical-Informatics/convert-pheno-ui) | [Code Repository Web-UI](https://github.com/CNAG-Biomedical-Informatics/convert-pheno-ui) |
