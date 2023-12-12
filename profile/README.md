@@ -1,7 +1,6 @@
 # Welcome to CNAG Biomedical Informatics!
 
-We are a subdivision of the [Biomedical Genomics Group at CNAG](https://www.cnag.eu/teams/genome-research-unit/biomedical-genomics-group). Our current research is focussed on the develompment of tools
-for dealing with phenontypic data.
+We are a subdivision of the [Biomedical Genomics Group at CNAG](https://www.cnag.eu/teams/genome-research-unit/biomedical-genomics-group). Our research focuses on the development of tools for handling phenotypic data.
 
 Mainly using Perl, Python, JavaScript (React) and R.
 
@@ -21,7 +20,7 @@ Mainly using Perl, Python, JavaScript (React) and R.
     <em>A software toolkit for the interconversion of standard data models for phenotypic data</em>
 </p>
 
-Published open access: Click [here](https://doi.org/10.1016/j.jbi.2023.104558) to read the article.
+Published open access: Access the article by clicking [here](https://doi.org/10.1016/j.jbi.2023.104558).
 
 | | | |
 |---|---| --- |
