@@ -46,7 +46,7 @@ Manuscript in preparation.
 
 | | | |
 |---|---| --- |
-| [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/flask.svg" height="16">]() | [Playground]() | In Development |
+| [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/flask.svg" height="16">]() | [Playground](https://pheno-ranker.cnag.eu) | In Development |
 | [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/book.svg" height="16">](https://cnag-biomedical-informatics.github.io/pheno-ranker) | [Documentation Perl Module](https://cnag-biomedical-informatics.github.io/pheno-ranker) | [![Documentation Status](https://github.com/cnag-biomedical-informatics/pheno-ranker/actions/workflows/documentation.yml/badge.svg)](https://github.com/cnag-biomedical-informatics/pheno-ranker/actions/workflows/documentation.yml)
 | [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/book.svg" height="16">]() | [Documentation Web-UI]() | In Development |
 | [<img src="https://raw.githubusercontent.com/CNAG-Biomedical-Informatics/.github/main/profile/icons/github.svg" height="16">](https://github.com/CNAG-Biomedical-Informatics/pheno-ranker) | [Code Repository Perl Module](https://github.com/CNAG-Biomedical-Informatics/pheno-ranker) | [![CPAN Publish](https://github.com/cnag-biomedical-informatics/pheno-ranker/actions/workflows/cpan-publish.yml/badge.svg)](https://github.com/cnag-biomedical-informatics/pheno-ranker/actions/workflows/cpan-publish.yml)
