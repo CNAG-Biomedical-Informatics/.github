@@ -1,6 +1,6 @@
 # Welcome to CNAG Biomedical Informatics!
 
-We are a subdivision of the [Biomedical Genomics Group at CNAG](https://www.cnag.eu/teams/genome-research-unit/biomedical-genomics-group). Our research focuses on the development of tools for handling phenotypic data.
+We are a subdivision of the [Biomedical Genomics Group at CNAG](https://www.cnag.eu/teams/genome-research-unit/biomedical-genomics-group). Our research focuses on the development of tools for handling genomic and phenotypic data.
 
 Mainly using Perl, Python, JavaScript (React) and R.
 
