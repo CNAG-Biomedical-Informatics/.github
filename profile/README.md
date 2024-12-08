@@ -39,10 +39,10 @@ Published open access: Access the article by clicking [here](https://doi.org/10.
   </a>
 </p>
 <p align="left">
-    <em>Advancing Semantic Similarity Analysis of Phenotypic Data Stored in GA4GH Standards and Beyond</em>
+    <em>A toolkit for comparison of phenotypic data stored in GA4GH standards and beyond</em>
 </p>
 
-Manuscript in preparation.
+Published open access: Access the article by clicking [here](https://doi.org/10.1186/s12859-024-05993-2)
 
 | | | |
 |---|---| --- |
