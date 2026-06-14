@@ -202,7 +202,7 @@ https://doi.org/10.1016/j.jbi.2023.104558
 
 ## Pheno-Ranker
 
-> Rueda M, et al. *Pheno-Ranker: a toolkit for comparison of phenotypic data stored in GA4GH standards and beyond.* BMC Bioinformatics (2024).
+> Leist IC, et al. *Pheno-Ranker: a toolkit for comparison of phenotypic data stored in GA4GH standards and beyond.* BMC Bioinformatics (2024).
 
 https://doi.org/10.1186/s12859-024-05993-2
 
