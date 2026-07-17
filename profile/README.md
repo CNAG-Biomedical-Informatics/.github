@@ -138,6 +138,30 @@ Schema-driven biomedical identifier generation and validation.
 
 ------------------------------------------------------------------------
 
+## 🏥 Medical Imaging Metadata & Release Readiness
+
+### dicomqc
+
+Policy-driven, standards-aware audit framework for validating DICOM
+metadata de-identification and research-release readiness.
+
+dicomqc is designed to sit on top of DICOM pseudonymization workflows,
+providing reproducible quality control, policy checks, structured reports,
+and MultiQC-compatible outputs for research imaging datasets.
+
+-   DICOM metadata inspection
+-   De-identification and pseudonymization QC
+-   Research-release readiness reporting
+-   MultiQC-compatible reporting
+-   Roadmap for standards-aware checks against DICOM PS3.15 and BIDS
+
+**Resources**
+
+-   https://github.com/CNAG-Biomedical-Informatics/dicomqc
+-   https://cnag-biomedical-informatics.github.io/dicomqc
+
+------------------------------------------------------------------------
+
 ## ⚙️ Genomic Processing
 
 ### CBIcall
@@ -173,6 +197,9 @@ software ecosystem rather than another standalone application.
 -   REDCap
 -   CDISC-ODM
 -   openEHR
+-   DICOM
+-   DICOM PS3.15
+-   BIDS
 -   JSON Schema
 
 ## Technologies
@@ -185,6 +212,7 @@ software ecosystem rather than another standalone application.
 -   MongoDB
 -   Snakemake
 -   REST APIs
+-   MultiQC
 -   Local LLMs
 -   MCP-compatible workflows
 
