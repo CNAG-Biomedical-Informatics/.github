@@ -275,29 +275,3 @@ If our software enables researchers to answer questions they could not
 answer before, then we have achieved our goal.
 
 ------------------------------------------------------------------------
-
-# 🤝 Collaboration & Open Science
-
-We welcome:
-
--   Scientific collaborations
--   Interoperability initiatives
--   Standards-related projects
--   Open-source contributions
--   Bug reports and feature requests
-
-## Resources
-
--   https://github.com/CNAG-Biomedical-Informatics
--   https://cnag-biomedical-informatics.github.io/convert-pheno
--   https://cnag-biomedical-informatics.github.io/pheno-ranker
--   https://cnag-biomedical-informatics.github.io/clarid-tools
-
-
----
-
-<div align="center">
-
-*Building sustainable biomedical informatics infrastructure for interoperable and AI-assisted research.*
-
-</div>
