@@ -31,6 +31,7 @@
       .core-subtitle { fill: #aebbc3; font-size: 14px; }
       .core-card { fill: #22313c; }
       .project { fill: #f6f8fa; font-size: 17px; font-weight: 700; }
+      .project-compact { font-size: 15px; }
       .project-detail { fill: #aebbc3; font-size: 11px; }
       .outcomes { fill: #f6f8fa; stroke: #d0d7de; }
       .outcome-text { fill: #17202a; font-size: 16px; font-weight: 700; }
@@ -84,7 +85,7 @@
     <rect x="354" y="140" width="7" height="88" rx="3.5" fill="#0e7490"/>
     <circle class="clinical-soft" cx="392" cy="184" r="24"/>
     <path d="M373 184H382L387 173L396 196L402 181H411" fill="none" stroke="#0e7490" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <text class="source-title" x="428" y="178">Phenotype &amp; clinical</text>
+    <text class="source-title" x="428" y="178">Clinical &amp; phenotypic</text>
     <text class="source-detail" x="428" y="201">Phenopackets · OMOP · REDCap</text>
   </g>
 
@@ -95,7 +96,7 @@
     <rect x="692" y="169" width="32" height="30" rx="4" fill="none" stroke="#a23b72" stroke-width="2.5"/>
     <circle cx="714" cy="178" r="4" fill="#a23b72"/>
     <path d="M695 195L704 185L711 191L716 186L722 195Z" fill="#a23b72" opacity=".8"/>
-    <text class="source-title" x="744" y="178">Medical imaging</text>
+    <text class="source-title" x="744" y="178">Imaging data</text>
     <text class="source-detail" x="744" y="201">DICOM · BIDS · metadata</text>
   </g>
 
@@ -136,7 +137,7 @@
   <g>
     <rect class="core-card" x="510" y="398" width="204" height="60" rx="7" stroke="#f2cc60" stroke-width="2"/>
     <circle cx="530" cy="420" r="7" fill="#f2cc60"/>
-    <text class="project" x="546" y="425">ClarID Tools</text>
+    <text class="project" x="546" y="425">ClarID-Tools</text>
     <text class="project-detail" x="530" y="446">IDENTIFIER SYSTEMS</text>
   </g>
   <g>
@@ -151,7 +152,7 @@
   <g>
     <rect class="core-card" x="62" y="488" width="204" height="60" rx="7" stroke="#39c5cf" stroke-width="2"/>
     <circle cx="82" cy="510" r="7" fill="#39c5cf"/>
-    <text class="project" x="98" y="515" font-size="16">beacon2-cbi-tools</text>
+    <text class="project project-compact" x="98" y="515">Beacon v2 CBI Tools</text>
     <text class="project-detail" x="82" y="536">FEDERATED DATA</text>
   </g>
   <g>
@@ -163,7 +164,7 @@
   <g>
     <rect class="core-card" x="510" y="488" width="204" height="60" rx="7" stroke="#39c5cf" stroke-width="2"/>
     <circle cx="530" cy="510" r="7" fill="#39c5cf"/>
-    <text class="project" x="546" y="515" font-size="15">OMOP CSV Validator</text>
+    <text class="project project-compact" x="546" y="515">OMOP CSV Validator</text>
     <text class="project-detail" x="530" y="536">CLINICAL DATA QUALITY</text>
   </g>
   <g>
@@ -202,6 +203,6 @@
   <g>
     <rect class="metadata-soft" x="520" y="695" width="286" height="27" rx="7" stroke="#9a6700"/>
     <circle cx="539" cy="708.5" r="5" fill="#9a6700"/>
-    <text class="outcome-text" x="663" y="714" text-anchor="middle" font-size="15">AI-assisted research</text>
+    <text class="outcome-text" x="663" y="714" text-anchor="middle" font-size="15">Reusable research data</text>
   </g>
 </svg>
