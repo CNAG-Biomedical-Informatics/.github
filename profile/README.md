@@ -48,8 +48,9 @@ standards-based software ecosystem. Project names link to their documentation.
 - **[OmicsDM](https://cnag-biomedical-informatics.github.io/omicsdm-documentation/)**
   stores and shares processed omics data with associated pheno-clinical
   information.
-- **Biomedical Research Navigator** *(in preparation)* is a clinical and assay
-  workspace for translational research teams.
+- **[COHORTome](https://github.com/CNAG-Biomedical-Informatics/cohortome)** is an
+  open-source workbench for governed longitudinal and multimodal cohort analysis
+  *(manuscript in preparation)*.
 
 ## How we work
 
