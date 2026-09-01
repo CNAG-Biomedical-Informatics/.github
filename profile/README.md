@@ -50,7 +50,7 @@ standards-based software ecosystem. Project names link to their documentation.
   information.
 - **[COHORTome](https://github.com/CNAG-Biomedical-Informatics/cohortome)** is an
   open-source workbench for governed longitudinal and multimodal cohort analysis
-  *(manuscript in preparation)*.
+  *(Technical Note manuscript in preparation for GigaScience)*.
 
 ## How we work
 
