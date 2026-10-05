@@ -69,13 +69,5 @@ including [3TR](https://3tr-imi.eu/),
 [HEREDITARY](https://hereditary-project.eu/), and
 [PRECISESADS](https://www.ihi.europa.eu/projects-results/project-factsheets/precisesads).
 
-## Selected publications
-
-- [ClarID](https://doi.org/10.1186/s13326-026-00349-6)
-- [Beacon v2 Reference Implementation](https://doi.org/10.1093/bioinformatics/btac568)
-- [OMOP CDM to Beacon v2 Interoperability](https://link.springer.com/article/10.1186/s12911-026-03649-0)
-- [Convert-Pheno](https://doi.org/10.1016/j.jbi.2023.104558)
-- [Pheno-Ranker](https://doi.org/10.1186/s12859-024-05993-2)
-
 Our goal is practical: help researchers spend less time integrating data and
 more time answering biological and clinical questions.

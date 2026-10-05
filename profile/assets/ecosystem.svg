@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 888" role="img" aria-labelledby="title desc">
   <title id="title">CNAG Biomedical Informatics research software ecosystem</title>
   <desc id="desc">
     Genomic, phenotypic, clinical, and imaging data converge through a connected
-    open-source software layer and emerge as interoperable, reproducible,
+    open-source software layer, including COHORTome for governed longitudinal
+    and multimodal cohort analysis, and emerge as interoperable, reproducible,
     analysis-ready research outputs.
   </desc>
 
@@ -26,13 +27,13 @@
       .source-card { fill: #ffffff; stroke: #d0d7de; }
       .source-title { fill: #17202a; font-size: 20px; font-weight: 700; }
       .source-detail { fill: #59636e; font-size: 13px; }
-      .core { fill: #17232d; stroke: #36505d; }
-      .core-title { fill: #f6f8fa; font-size: 17px; font-weight: 750; letter-spacing: 1.1px; }
-      .core-subtitle { fill: #aebbc3; font-size: 14px; }
-      .core-card { fill: #22313c; }
-      .project { fill: #f6f8fa; font-size: 17px; font-weight: 700; }
+      .core { fill: #f6f8fa; stroke: #d0d7de; }
+      .core-title { fill: #17202a; font-size: 17px; font-weight: 750; letter-spacing: 1.1px; }
+      .core-subtitle { fill: #59636e; font-size: 14px; }
+      .core-card { fill: #ffffff; }
+      .project { fill: #17202a; font-size: 17px; font-weight: 700; }
       .project-compact { font-size: 15px; }
-      .project-detail { fill: #aebbc3; font-size: 11px; }
+      .project-detail { fill: #59636e; font-size: 11px; }
       .outcomes { fill: #f6f8fa; stroke: #d0d7de; }
       .outcome-text { fill: #17202a; font-size: 16px; font-weight: 700; }
       .genomic-soft { fill: #edf6e4; }
@@ -48,6 +49,8 @@
         .source-card, .outcomes { fill: #161b22; stroke: #30363d; }
         .core { fill: #111820; stroke: #456473; }
         .core-card { fill: #1f2b35; }
+        .core-title, .project { fill: #f6f8fa; }
+        .core-subtitle, .project-detail { fill: #b1bac4; }
         .genomic-soft { fill: #26351a; }
         .clinical-soft { fill: #15343a; }
         .imaging-soft { fill: #3a1f2d; }
@@ -57,7 +60,7 @@
     </style>
   </defs>
 
-  <rect class="canvas" x="1" y="1" width="998" height="758" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <rect class="canvas" x="1" y="1" width="998" height="886" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
 
   <!-- Identity -->
   <rect x="34" y="28" width="8" height="62" rx="4" fill="#72b626"/>
@@ -108,75 +111,77 @@
   <circle cx="500" cy="288" r="4" fill="#f6f8fa"/>
   <path d="M500 302V319" stroke="#72b626" stroke-width="3" marker-end="url(#arrow-green)"/>
 
-  <!-- Connected software layer -->
+  <!-- Software grouped by primary domain; platforms span data domains. -->
   <g filter="url(#core-shadow)">
-    <rect class="core" x="38" y="326" width="924" height="244" rx="8" stroke-width="2"/>
+    <rect class="core" x="38" y="326" width="924" height="372" rx="8" stroke-width="2"/>
   </g>
   <text class="core-title" x="62" y="357">CNAG BIOMEDICAL INFORMATICS · OPEN-SOURCE RESEARCH LAYER</text>
-  <text class="core-subtitle" x="62" y="380">Interoperability · semantic analysis · identifiers · quality control · genomics · data platforms</text>
 
-  <!-- Lattice connections -->
-  <g fill="none" stroke-linecap="round" opacity=".42">
-    <path d="M500 458L164 430M500 458L388 430M500 458L612 430M500 458L836 430" stroke="#59717d" stroke-width="2"/>
-    <path d="M500 458L164 520M500 458L388 520M500 458L612 520M500 458L836 520" stroke="#59717d" stroke-width="2"/>
-    <path d="M164 430H836M164 520H836" stroke="#48606c" stroke-width="1.5" stroke-dasharray="5 7"/>
-  </g>
-
+  <text class="core-subtitle" x="62" y="398" font-weight="700">CLINICAL &amp; PHENOTYPIC DATA</text>
   <g>
-    <rect class="core-card" x="62" y="398" width="204" height="60" rx="7" stroke="#39c5cf" stroke-width="2"/>
-    <circle cx="82" cy="420" r="7" fill="#39c5cf"/>
-    <text class="project" x="98" y="425">Convert-Pheno</text>
-    <text class="project-detail" x="82" y="446">DATA INTEROPERABILITY</text>
+    <rect class="core-card" x="62" y="410" width="204" height="60" rx="7" stroke="#39c5cf" stroke-width="2"/>
+    <circle cx="82" cy="432" r="7" fill="#39c5cf"/>
+    <text class="project" x="98" y="437">Convert-Pheno</text>
+    <text class="project-detail" x="82" y="458">DATA INTEROPERABILITY</text>
   </g>
   <g>
-    <rect class="core-card" x="286" y="398" width="204" height="60" rx="7" stroke="#58a6ff" stroke-width="2"/>
-    <circle cx="306" cy="420" r="7" fill="#58a6ff"/>
-    <text class="project" x="322" y="425">Pheno-Ranker</text>
-    <text class="project-detail" x="306" y="446">SEMANTIC ANALYSIS</text>
+    <rect class="core-card" x="286" y="410" width="204" height="60" rx="7" stroke="#39c5cf" stroke-width="2"/>
+    <circle cx="306" cy="432" r="7" fill="#39c5cf"/>
+    <text class="project" x="322" y="437">Pheno-Ranker</text>
+    <text class="project-detail" x="306" y="458">SEMANTIC ANALYSIS</text>
   </g>
   <g>
-    <rect class="core-card" x="510" y="398" width="204" height="60" rx="7" stroke="#f2cc60" stroke-width="2"/>
-    <circle cx="530" cy="420" r="7" fill="#f2cc60"/>
-    <text class="project" x="546" y="425">ClarID-Tools</text>
-    <text class="project-detail" x="530" y="446">IDENTIFIER SYSTEMS</text>
+    <rect class="core-card" x="510" y="410" width="204" height="60" rx="7" stroke="#39c5cf" stroke-width="2"/>
+    <circle cx="530" cy="432" r="7" fill="#39c5cf"/>
+    <text class="project project-compact" x="546" y="437">OMOP CSV Validator</text>
+    <text class="project-detail" x="530" y="458">CLINICAL DATA QUALITY</text>
   </g>
   <g>
-    <rect class="core-card" x="734" y="398" width="204" height="60" rx="7" stroke="#acca57" stroke-width="2"/>
-    <circle cx="754" cy="420" r="7" fill="#acca57"/>
-    <text class="project" x="770" y="425">CBIcall</text>
-    <text class="project-detail" x="754" y="446">GENOMIC WORKFLOWS</text>
+    <rect class="core-card" x="734" y="410" width="204" height="60" rx="7" stroke="#39c5cf" stroke-width="2"/>
+    <circle cx="754" cy="432" r="7" fill="#39c5cf"/>
+    <text class="project" x="770" y="437">ClarID-Tools</text>
+    <text class="project-detail" x="754" y="458">IDENTIFIER SYSTEMS</text>
   </g>
 
-  <circle cx="500" cy="469" r="11" fill="#72b626" stroke="#d9efa9" stroke-width="3"/>
-
+  <text class="core-subtitle" x="62" y="498" font-weight="700">GENOMICS</text>
+  <text class="core-subtitle" x="734" y="498" font-weight="700">IMAGING</text>
   <g>
-    <rect class="core-card" x="62" y="488" width="204" height="60" rx="7" stroke="#39c5cf" stroke-width="2"/>
-    <circle cx="82" cy="510" r="7" fill="#39c5cf"/>
-    <text class="project project-compact" x="98" y="515">Beacon v2 CBI Tools</text>
-    <text class="project-detail" x="82" y="536">FEDERATED DATA</text>
+    <rect class="core-card" x="62" y="510" width="204" height="60" rx="7" stroke="#acca57" stroke-width="2"/>
+    <circle cx="82" cy="532" r="7" fill="#acca57"/>
+    <text class="project" x="98" y="537">CBIcall</text>
+    <text class="project-detail" x="82" y="558">GENOMIC WORKFLOWS</text>
   </g>
   <g>
-    <rect class="core-card" x="286" y="488" width="204" height="60" rx="7" stroke="#ff7b9c" stroke-width="2"/>
-    <circle cx="306" cy="510" r="7" fill="#ff7b9c"/>
-    <text class="project" x="322" y="515">dicomqc</text>
-    <text class="project-detail" x="306" y="536">IMAGING QUALITY</text>
+    <rect class="core-card" x="286" y="510" width="204" height="60" rx="7" stroke="#acca57" stroke-width="2"/>
+    <circle cx="306" cy="532" r="7" fill="#acca57"/>
+    <text class="project project-compact" x="322" y="537">Beacon v2 CBI Tools</text>
+    <text class="project-detail" x="306" y="558">GENOMIC &amp; CLINICAL DATA</text>
   </g>
   <g>
-    <rect class="core-card" x="510" y="488" width="204" height="60" rx="7" stroke="#39c5cf" stroke-width="2"/>
-    <circle cx="530" cy="510" r="7" fill="#39c5cf"/>
-    <text class="project project-compact" x="546" y="515">OMOP CSV Validator</text>
-    <text class="project-detail" x="530" y="536">CLINICAL DATA QUALITY</text>
-  </g>
-  <g>
-    <rect class="core-card" x="734" y="488" width="204" height="60" rx="7" stroke="#c084fc" stroke-width="2"/>
-    <circle cx="754" cy="510" r="7" fill="#c084fc"/>
-    <text class="project" x="770" y="515">OmicsDM</text>
-    <text class="project-detail" x="754" y="536">OMICS WAREHOUSE</text>
+    <rect class="core-card" x="734" y="510" width="204" height="60" rx="7" stroke="#ff7b9c" stroke-width="2"/>
+    <circle cx="754" cy="532" r="7" fill="#ff7b9c"/>
+    <text class="project" x="770" y="537">dicomqc</text>
+    <text class="project-detail" x="754" y="558">IMAGING QUALITY</text>
   </g>
 
-  <path d="M500 570V605" stroke="#72b626" stroke-width="3" marker-end="url(#arrow-green)"/>
+  <text class="core-subtitle" x="286" y="598" font-weight="700">RESEARCH DATA PLATFORMS</text>
+  <g>
+    <rect class="core-card" x="286" y="610" width="204" height="60" rx="7" stroke="#c084fc" stroke-width="2"/>
+    <circle cx="306" cy="632" r="7" fill="#c084fc"/>
+    <text class="project" x="322" y="637">OmicsDM</text>
+    <text class="project-detail" x="306" y="658">OMICS WAREHOUSE</text>
+  </g>
+  <g>
+    <rect class="core-card" x="510" y="610" width="204" height="60" rx="7" stroke="#c084fc" stroke-width="2"/>
+    <circle cx="530" cy="632" r="7" fill="#c084fc"/>
+    <text class="project" x="546" y="637">COHORTome</text>
+    <text class="project-detail" x="530" y="658">COHORT ANALYSIS</text>
+  </g>
+
+  <path d="M500 698V733" stroke="#72b626" stroke-width="3" marker-end="url(#arrow-green)"/>
 
   <!-- Research outcomes -->
+  <g transform="translate(0 128)">
   <rect class="outcomes" x="38" y="612" width="924" height="124" rx="8" stroke-width="1.5"/>
   <text class="section" x="58" y="638">RESEARCH OUTCOMES</text>
 
@@ -204,5 +209,6 @@
     <rect class="metadata-soft" x="520" y="695" width="286" height="27" rx="7" stroke="#9a6700"/>
     <circle cx="539" cy="708.5" r="5" fill="#9a6700"/>
     <text class="outcome-text" x="663" y="714" text-anchor="middle" font-size="15">Reusable research data</text>
+  </g>
   </g>
 </svg>
